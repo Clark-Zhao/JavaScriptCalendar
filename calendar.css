@@ -1,0 +1,41 @@
+.calendarContainer {
+	width: 350px;
+	border: 1px solid black;
+	/*防止点的太快箭头呈选中状态影响美观*/
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.calendarHead {
+	text-align: center;
+}
+.calendarContainer table {
+	width: 100%;
+	text-align: center;
+}
+.calendarContainer td {
+	cursor: pointer;
+}
+.todayDate {
+	background-color: orange;
+}
+.chooseDate {
+	background-color: red;
+	color: white;
+}
+.disabledDate {
+	color: gainsboro;
+}
+.preArrow,.nextArrow {
+	font-weight: bold;
+	cursor: pointer;
+}
+.preArrow {
+	float: left;
+	margin-left: 20px;
+}
+.nextArrow {
+	float: right;
+	margin-right: 20px;
+}
